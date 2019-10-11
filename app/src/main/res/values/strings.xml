@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NEOPIアンケート</string>
+    <string name="IDLabel">ID : </string>
+    <string name="hintRequestID">IDを入力してください</string>
+    <string name="PWLabel">PW : </string>
+    <string name="hintRequestPW">パスワードを入力してください</string>
+    <string name="LogInText">ログイン</string>
+    <string name="start_button">Start</string>
+    <string name="welcome">ようこそ！</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test_basic">TestBasicActivity</string>
+
+    <!-- TODO: コンポーネントのテキスト！ -->
+    <string name="text_test">テストテキスト</string>
+    <string name="super_yes">非常にそうだ</string>
+    <string name="even">どちらでもない</string>
+    <string name="yes">そうだ</string>
+    <string name="no">そうでない</string>
+    <string name="super_no">全くそうでない</string>
+    <string name="leftBracket">\\(</string>
+    <string name="rightBracket">\\)</string>
+
+</resources>

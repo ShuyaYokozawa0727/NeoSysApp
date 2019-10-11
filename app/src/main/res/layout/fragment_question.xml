@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50px"
+        android:paddingBottom="30px"
+        android:text="@string/text_test"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50px"
+        android:paddingBottom="30px"
+        android:text="@string/text_test"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/textQuestionDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonNot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/super_yes" />
+
+        <RadioButton
+            android:id="@+id/radioButtonLittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <RadioButton
+            android:id="@+id/radioButtonNeither"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/even" />
+
+        <RadioButton
+            android:id="@+id/radioButtonApply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+
+        <RadioButton
+            android:id="@+id/radioButtonVery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/super_no" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonToSummary"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="Summaryを表示"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonToTable"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="表で結果を表示"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonToGraph"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:text="グラフで結果を表示"
+        android:textSize="30sp" />
+</LinearLayout>
